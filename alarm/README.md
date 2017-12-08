@@ -13,7 +13,7 @@ path-to-mp3 is some path to an alarm tone to play:
 
 `./alarm "path-to-mp3"`
 
-Example `./alarm "~/Music/alarm/alarmTone1.mp3"`
+Example `./alarm "./alarm-tone.mp3"`
 
 Then, enter the time for the alarm to play: Ex. 9:00am
 
