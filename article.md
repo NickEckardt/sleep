@@ -4,9 +4,10 @@
 
 I never seem to get enough sleep.  If I don’t watch what I’m
 doing, I can easily stay up browsing the internet until 5am. On the
-flip side I also tend to sleep through most alarms. I don't really
-have the willpower to break these habits with pure willpower, so I have 
-found a set of tools for linux which help me keep my sleep schedule in tact. 
+flip side I also tend to sleep through most alarms. I have tackled these 
+problems the only way I know how: program my computer to solve them for me. 
+Here are a few tools for linux which help me either go to sleep on time, or
+wake up when I need to.  
 
 ## Going to Sleep on Time
 
@@ -45,8 +46,6 @@ on an episode of a show i'm currently watching, and have my computer
 automatically put itself to sleep on completion. You can find the script
 [here](https://github.com/NickEckardt/sleep) named **goodnight**. 
 
-###  Hard limit on your computer with cron job.
-
 ## Waking up on Time
 
 Even if you go to sleep early, if you don't wake up to your alarm
@@ -68,17 +67,11 @@ times I have managed to wake up and stop it in time.
 
 I've been there too. I wake up from my alarm, and decide "I have plenty of time
 before my first class, so I'll just go back to sleep". There is only one
-surefire solution to make sure I get out of bed: Making plans with people early 
-the next day with people I care about. 
-		you don't have plans, try to set up studying with 
-		friends, or some sort of social event. Waking up
-		at 10am and doing something non-productive until 12
-		is better than waking up at 2 and getting out of 
-		bed at 3. 
-
-
-Finally, make sure you have something to do after you wake up. 
-
+surefire solution to make sure I get out of bed: Making plans with people early
+the next day with people I care about.  you don't have plans, try to set up
+studying with friends, or some sort of social event. Waking up at 10am and
+doing something non-productive until 12 is better than waking up at 2 and
+getting out of bed at 3. 
 
 ## Conclusion
 
@@ -86,5 +79,3 @@ Being in college comes with a ton of freedom. However, without anyone watching
 over me my sleep schedule tends to suffer. With the help of these tools, I have
 managed to stabilize my sleep schedule, however sometimes its best to have 
 other people hold you accountable as well. 
-
-Overview of solutions discussed, script to install all of the programs mentioned. 
