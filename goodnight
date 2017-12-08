@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#uncomment if you use smplayer instead
+#smplayer -close-at-end "$@"
+
+mplayer -close-at-end "$@"
+
+#Go to sleep instead of shutdown
+#systemctl suspend
+
+shutdown now
+
