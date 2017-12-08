@@ -4,8 +4,9 @@
 
 I never seem to get enough sleep.  If I don’t watch what I’m
 doing, I can easily stay up browsing the internet until 5am. On the
-flip side I also tend to sleep through most alarms. I have tackled these 
-problems the only way I know how: program my computer to solve them for me. 
+flip side I also tend to sleep through most alarms. As a Computer Science 
+student I have tackled these 
+problems the only way I know how: Program my computer to solve them for me. 
 Here are a few tools for Linux which help me either go to sleep on time, or
 wake up when I need to.  
 
@@ -13,7 +14,7 @@ wake up when I need to.
 
 #### Getting your Body Ready to Sleep
 
-You may have heard before that you shouldn't browse the web or use your phone
+You may have heard that you shouldn't browse the web or use your phone
 before going to sleep. The reason for this is that while your body is exposed
 to 
 [blue light](https://www.somnilight.com/blue-light-insomnia.html) it does
@@ -21,13 +22,13 @@ not produce the chemical
 [melatonin](https://www.webmd.com/sleep-disorders/tc/melatonin-overview#1), 
 which primarily helps you go to sleep. Of course if you're anything like me, 
 you won't set aside your evening web browsing for anything. To combat this, 
-you can install an app such as **[redshift](https://github.com/jonls/redshift)**
+you can install an program such as **[redshift](https://github.com/jonls/redshift)**
 which automatically adjusts the colors on your screen to reduce the amount
 of blue light given off. During the day your screen will have the same colors
 as normal, however after sunset it will turn down the blue colors, making your
-screen look more red (hence the name). I personally have it 
-set to pacific time, since I wake up and go to sleep around 3 hours later than
-usual, but you can pick whatever works best for you. 
+screen look more red (hence the name). This allows your body to begin entering
+"sleep mode" so you don't lie in bed for another hour after turning off your
+device. 
 
 #### Preventing "One More Video" Syndrome
 
@@ -35,34 +36,27 @@ How many times have you started watching videos or a show only to keep clicking
 "next video" indefinetly. The simplest way to stop myself is simply set up
 a timed shutdown or sleep. To do this on Linux, simply run the command 
 `shutdown +t &` 
-where t is how many minutes in the future you want to shut down. In my
-experience, it is much better to set a generous deadline so once that
-deadline hits, you won't be able to justify canceling it. 
-If you change 
-your mind, run `shutdown -c` to cancel any scheduled shutdowns. 
+where t is how many minutes in the future you want to shut down. To cancel the
+scheduled shutdown, simply run `shutdown -c`.
 
-If you are watching videos from a local video player such as mplayer, you can
-even have the player shut itself down after finishing the video. I tend to put
-on an episode of a show I'm currently watching, and have my computer 
-automatically put itself to sleep on completion. You can find the script
-[here](https://github.com/NickEckardt/sleep) named *goodnight*. 
-
-The best part about a timed shutdown is that you can start an episode of 
+The most useful part about a timed shutdown is that you can start an episode of 
 your favorite show, slip into bed, and your computer will automatically 
-shut itself down when it is done. 
+shut itself down when it is done. Since I would have to stand up to 
+click the "next" button, I tend to just turn around and go to sleep, rather 
+than continue binge watching. 
 
 ### Waking up on Time
 
 Even if you go to sleep early, if you don't wake up to your alarm
 you won't be able to fall asleep the next night. Therefore, an effective
-alarm is key. An optimal alarm has 3 parts to it: volume, annoyance, and threat
+alarm is key. An optimal alarm has 3 parts to it: Volume, annoyance, and threat
 of social suicide. The first two are self explanatory: volume is necessary for
 you to actually hear your alarm. Annoyance is to make you want to turn it off.
- I’ve managed to sleep through blaring
-dubstep for more than 2 hours, so the third factor is necessary. 
+However, threat of social suicide is the key ingredient to get you out of
+bed to turn off the alarm, rather than curl into a ball and tune it out. 
 
 The solution is to build an alarm tone which starts off quiet, then plays a 
-somewhat louder warning tone and after
+somewhat louder warning tone, and after around
 a minute blasts a tone loud enough to wake your neighbors. You can find the
 alarm tone I use [here](https://github.com/NickEckardt/sleep) named alarm.mp3. 
 Surprisingly, the alarm has only gotten to the loud part once, all other
