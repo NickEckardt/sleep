@@ -6,7 +6,9 @@ vlc
 
 ## Instructions
 
-First, set up the program by running the following command, where 
+Create the executible by running `make` in this directory
+
+Set up the program by running the following command, where 
 path-to-mp3 is some path to an alarm tone to play: 
 
 `./alarm "path-to-mp3"`

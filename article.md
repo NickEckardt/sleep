@@ -58,13 +58,16 @@ bed to turn off the alarm, rather than curl into a ball and tune it out.
 The solution is to build an alarm tone which starts off quiet, then plays a 
 somewhat louder warning tone, and after around
 a minute blasts a tone loud enough to wake your neighbors. You can find the
-alarm tone I use [here](https://github.com/NickEckardt/sleep) named alarm.mp3. 
-Surprisingly, the alarm has only gotten to the loud part once, all other
-times I have managed to wake up and stop it in time. 
+alarm tone I use [here](https://github.com/NickEckardt/sleep) named 
+[alarm-tone.mp3](https://github.com/NickEckardt/sleep/blob/master/alarm/alarm-tone.mp3). 
+I have also written a program which runs the alarm tone, which can 
+be found [here](https://github.com/NickEckardt/sleep/tree/master/alarm), 
+instructions in the README. Just make sure to test it before running it in
+production!
 
 You will of course need some sort of computer to run this alarm. It's best
 to hook your computer up to some loud speakers, so that if the alarm gets
-to the loud part, you're sure not to wake up. Since you already have 
+to the loud part, you're sure not to wake up. Now that you already have 
 the computer and speakers, you could also add some 
 [background noise](https://mynoise.net/) for the night 
 to help you tone out your loud neighbors you have. 
@@ -83,6 +86,6 @@ your sleep schedule in tact.
 ## Conclusion
 
 Being in college comes with a ton of freedom. However, without anyone watching
-over me my sleep schedule tends to suffer. With the help of these tools, I have
-managed to stabilize my sleep schedule, however sometimes its best to have 
-other people hold you accountable as well. 
+over me my sleep schedule tends to suffer. With the help of these tools and
+tricks I have managed to stabilize my sleep schedule. Hopefully they help
+you as well!
